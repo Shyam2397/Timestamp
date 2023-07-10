@@ -31,7 +31,7 @@ app.get("/current/date-time",(req,res)=>{
     //         })
     //     }
     // })
-    res.send("Am working propery")
+    res.send("Am working propery right")
 })
 
 app.listen(PORT,()=>console.log(`the server is online : ${PORT}`))
